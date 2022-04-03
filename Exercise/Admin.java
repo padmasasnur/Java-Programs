@@ -1,4 +1,4 @@
-package com.onebill.upcastinganddowncasting;
+package com.onebill.Exercise;
 
 public class Admin extends User {
 	

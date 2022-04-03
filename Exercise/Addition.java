@@ -1,4 +1,4 @@
-package com.onebill.corejava;
+package com.onebill.Exercise;
 
 public class Addition {
 	static int a = 10;

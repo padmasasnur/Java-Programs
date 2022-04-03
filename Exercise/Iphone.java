@@ -1,4 +1,4 @@
-package com.onebill.project;
+package com.onebill.Exercise;
 
 public class Iphone extends SmartPhone{
 	String os;

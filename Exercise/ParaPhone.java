@@ -1,4 +1,4 @@
-package com.onebill.project;
+package com.onebill.Exercise;
 
 public class ParaPhone {
 	int price;

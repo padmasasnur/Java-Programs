@@ -1,4 +1,4 @@
-package com.onebill.corejava;
+package com.onebill.Exercise;
 import java.util.Scanner; // to read the input from user
 
 public class Table {

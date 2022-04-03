@@ -1,5 +1,5 @@
-package com.onebill.upcastinganddowncasting;
-
+package com.onebill.Exercise;
+//upcastinganddowncasting
 public class User {
 	String name;
 	long number;

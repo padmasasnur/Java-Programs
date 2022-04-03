@@ -1,4 +1,4 @@
-package com.onebill.project;
+package com.onebill.Exercise;
 
 public class SmartPhone1 extends Phone1{
     double camera;

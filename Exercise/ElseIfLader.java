@@ -1,4 +1,4 @@
-package com.onebill.corejava;
+package com.onebill.Exercise;
 
 public class ElseIfLader {
 	public static void main(String[] args) {

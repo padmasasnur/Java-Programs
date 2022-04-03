@@ -1,4 +1,5 @@
-package com.onebill.datatype;
+package com.onebill.Exercise;
+//datatype
 
 public class Exercise {
 	public static void main(String[] args) {
