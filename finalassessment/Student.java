@@ -45,7 +45,7 @@ public class Student implements Comparable{
 	@Override
 	public int compareTo(Object o) {
 		Student stud = (Student) o;
-		return this.id=stud.id;
+		return this.id-stud.id;
 	}
 	
 	
