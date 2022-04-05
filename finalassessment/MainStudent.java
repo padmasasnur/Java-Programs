@@ -42,11 +42,16 @@ public class MainStudent {
 				break;
 
 			case 2:
-				System.out.println("\nEdit student details");
+				System.out.println("\nEdit student details by using id");
 				System.out.println("Enter the id for edit");
 				id = sc.nextInt();
 				System.out.println("Enter the Name");
 				name = sc.next();
+                                System.out.println("Enter student marks");
+   				marks = sc.nextInt();
+				System.out.println("Enter student course");
+				course = sc.next();
+
 
 				Student newdetails = new Student(id, name, marks, course);
 				index = 0;
