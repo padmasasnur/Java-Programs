@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+
+	<bean class="com.ob.spring.GirlFriend" name="gf" autowire="byType">
+		<property name="fullName">
+			<value>Sai Pallavi</value>
+		</property>
+		<property name="PhoneNumber">
+			<value>987654321</value>
+		</property>
+		<property name="instaId">
+			<value>SaiPallavi123</value>
+		</property>
+		<property name="bestQuality">
+			<value>Dance</value>
+		</property>
+	</bean>
+
+	
+	<bean class="com.ob.spring.BoyFriend" name="krishna" primary="true">
+		<property name="name" value="krishna" />
+		<property name="phoneNumber" value="987654987" />
+		<property name="instaId" value="krishna123" />
+		<property name="bestQuality" value="playing" />
+
+	</bean>
+
+ 	<bean class="com.ob.spring.BoyFriend" name="dinesh">
+		<property name="name" value="Dinesh" />
+		<property name="phoneNumber" value="9865467521" />
+		<property name="instaId" value="Dinesh123" />
+		<property name="bestQuality" value="singing" />
+	</bean>
+
+</beans>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee id="1">
+    <address>
+        <area>BTM</area>
+        <houseNo>246</houseNo>
+        <landMark>supermarket</landMark>
+        <pinCode>560012</pinCode>
+    </address>
+    <designation>Developer</designation>
+    <name>Soumya</name>
+    <salary>100000.0</salary>
+</employee>
